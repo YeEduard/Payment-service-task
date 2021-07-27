@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/payment_db"
+    driver-class-name: org.postgresql.Driver
+    username: ed228
+    password: "020992"
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    database-platform:
+
+springdoc:
+  swagger-ui:
+    path: /doc
